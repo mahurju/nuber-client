@@ -1,12 +1,7 @@
 import { DefaultTheme } from "styled-components";
 
-const myTheme: DefaultTheme = {
-  borderRadius: "5px",
-
-  colors: {
-    main: "cyan",
-    secondary: "magenta"
-  }
+const theme: DefaultTheme = {
+  blueColor: "#3498db"
 };
 
-export { myTheme };
+export default theme;
